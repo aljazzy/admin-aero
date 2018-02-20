@@ -1,0 +1,20 @@
+name db_type html_type options
+
+Unit
+id	id_unit	nama_unit	type	gambar	harga	capacity	info	alamat	area	status
+
+Full texts
+id
+username string text
+email string text
+password string text
+avatar string text
+handphone integer
+api_token string
+
+
+
+integer:unsigned:foreign,table_name,id
+$table->foreign('field_name')->references('id')->on('table_name')
+
+id	kode_pesanan	lama_sewa	start_date	end_date	id_user	id_unit	status	bukti_byr	title	nama	alamat	hp	jml_tamu	created_at	updated_at	deleted_at
